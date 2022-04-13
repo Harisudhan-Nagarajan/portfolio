@@ -22,7 +22,10 @@ export function Intro() {
           <IconButton
             size="large"
             onClick={() =>
-              window.open("www.linkedin.com/in/hari-sudhan-03693621a", "_blank")
+              window.open(
+                "https://www.linkedin.com/in/hari-sudhan-03693621a",
+                "_blank"
+              )
             }
           >
             <img src={linkedin} />
