@@ -16,8 +16,25 @@ export function Project() {
             password reset flow, Post ideas , Home feed,view Profile and Pins,
             Modify personel detials and Profile picture.
           </p>
-          <Button variant="contained">LIVE</Button>{" "}
-          <Button variant="contained">SOURCE</Button>
+          <Button
+            variant="contained"
+            onClick={() =>
+              window.open("https://hari-pinterest-clone.netlify.app", "_blank")
+            }
+          >
+            LIVE
+          </Button>{" "}
+          <Button
+            variant="contained"
+            onClick={() =>
+              window.open(
+                "https://github.com/Harisudhan-Nagarajan/pinterest-frontend",
+                "_blank"
+              )
+            }
+          >
+            SOURCE
+          </Button>
         </div>
         <div className="project-div">
           <br />
@@ -27,8 +44,28 @@ export function Project() {
             Basic Ecommerce app , feature like Create account, view cart,
             checkout and payment.
           </p>
-          <Button variant="contained">LIVE</Button>{" "}
-          <Button variant="contained">SOURCE</Button>
+          <Button
+            variant="contained"
+            onClick={() =>
+              window.open(
+                "https://lustrous-tulumba-f41cb8.netlify.app/",
+                "_blank"
+              )
+            }
+          >
+            LIVE
+          </Button>{" "}
+          <Button
+            variant="contained"
+            onClick={() =>
+              window.open(
+                "https://github.com/Harisudhan-Nagarajan/shopping-cart",
+                "_blank"
+              )
+            }
+          >
+            SOURCE
+          </Button>
         </div>
         <div className="project-div">
           <br />
@@ -39,7 +76,17 @@ export function Project() {
             file using Electron JS and FFMPEG plugin
           </p>
 
-          <Button variant="contained">SOURCE</Button>
+          <Button
+            variant="contained"
+            onClick={() =>
+              window.open(
+                "https://github.com/Harisudhan-Nagarajan/Video-Converter",
+                "_blank"
+              )
+            }
+          >
+            SOURCE
+          </Button>
         </div>
       </div>
     </div>

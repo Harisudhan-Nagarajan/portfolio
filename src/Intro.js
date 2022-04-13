@@ -11,17 +11,30 @@ export function Intro() {
         <h1>Hi, I am Hari</h1>
         <h1>Full Stack Developer</h1>
         <div>
-          <IconButton size="large">
+          <IconButton
+            size="large"
+            onClick={() =>
+              window.open("https://github.com/Harisudhan-Nagarajan", "_blank")
+            }
+          >
             <img src={GitHub} />
           </IconButton>
-          <IconButton size="large">
+          <IconButton
+            size="large"
+            onClick={() =>
+              window.open("www.linkedin.com/in/hari-sudhan-03693621a", "_blank")
+            }
+          >
             <img src={linkedin} />
-          </IconButton>
-          <IconButton size="large">
-            <img src={insta} />
           </IconButton>
         </div>
         <Button
+          onClick={() =>
+            window.open(
+              "https://drive.google.com/file/d/1P4oATeryFKaQqLF-3cw_PDSyDYdbFI0N/view?usp=sharing",
+              "_blank"
+            )
+          }
           variant="contained"
           sx={{ width: "7rem", margin: "1rem" }}
           size="large"
