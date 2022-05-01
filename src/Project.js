@@ -1,6 +1,7 @@
 import pinterest from "./images/pinterest.png";
 import videoconverter from "./images/video-converter.png";
 import shopping from "./images/shopping-cart.png";
+import moviereview from "./images/moviereview.png";
 import { Button } from "@mui/material";
 export function Project() {
   return (
@@ -81,6 +82,34 @@ export function Project() {
             onClick={() =>
               window.open(
                 "https://github.com/Harisudhan-Nagarajan/Video-Converter",
+                "_blank"
+              )
+            }
+          >
+            SOURCE
+          </Button>
+        </div>
+        <div className="project-div">
+          <br />
+          <h3 style={{ margin: "0px", padding: "0px" }}>Movie Review</h3>
+          <img src={moviereview} className="project-img" />
+          <p>
+            MERN Stack app with feature like Create Account and rate movies ,
+            Movies info.
+          </p>
+          <Button
+            variant="contained"
+            onClick={() =>
+              window.open("https://hari-movie-review.netlify.app/", "_blank")
+            }
+          >
+            LIVE
+          </Button>{" "}
+          <Button
+            variant="contained"
+            onClick={() =>
+              window.open(
+                "https://github.com/Harisudhan-Nagarajan/movie-review-frontend",
                 "_blank"
               )
             }
